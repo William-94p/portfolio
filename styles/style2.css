@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    box-sizing: border-box;
+    background-color: #a393bf;
+}
+
+.cabeçalho__menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabeçalho__menu__link {
+    font-size: 18px;
+    color: #333;
+    margin: 5px 10px;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+.cabeçalho__menu__link:hover {
+    color: #007bff;
+}
+
+.texto-destaque {
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    width: 615px;
+    color: #453750;
+}
+.titulo-blog {
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+    color: #ff1053
+    
+    
+}
+.urgente {
+    font-family: 'Montserrat', sans-serif;
+    color: red;
+}
+p {
+    margin: 10px;
+    padding: 5px;    
+}
+
+.apresentacao {
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 8% 15%;
+      
+}
+
+.foto {
+    padding: 2%;
+}
+
+.container {
+    
+    align-items: space-between;
+    height: 300px;
+}
+
+.apresentacao__links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.apresentacao__links__subtitulo {
+    font-family:'Krona One', sans-serif; 
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.apresentacao__links__link {
+    
+    font-size: 21px;
+    background-color: #a393bf;
+    width: 378px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 21.5px 0;
+    color: #f6f6f6;
+    font-family: 'Montserrat', sans-serif;
+    border: 2px solid #22d4fd;
+
+}
+
+.apresentacao__links__subtitulo:hover {
+    font-weight: 600;
+}
+
+.apresentacao__links__link:hover {
+    background-color: #272727;
+}
+
+.foto:hover {
+    border: 2px solid red;
+}
+
+.rodape {
+    color: #000000;
+    background-color: #22d4fd;
+    text-align: center;
+    font-family: 'montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 24px;
+}
